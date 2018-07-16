@@ -3,6 +3,14 @@ import platform
 from numbers import Number
 import xml.etree.cElementTree as xml
 from collections import namedtuple
+try:
+    unicode = unicode
+except NameError:
+    # 'unicode' is undefined, must be Python 3
+    str = str
+    unicode = str
+    bytes = bytes
+    basestring = (str,bytes)
 
 py_majversion, py_minversion, py_revversion = platform.python_version_tuple()
 
