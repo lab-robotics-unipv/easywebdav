@@ -1,3 +1,12 @@
+Notes on this fork
+==================
+
+I forked the original repository due to problems with python3 (see https://github.com/amnong/easywebdav/issues/26), which I hopefully fixed in this version.
+You are free to use this repository at your own risk, I don't plan to keep this fork maintained in the future.
+
+Best wishes,
+Giangiangian
+
 EasyWebDAV: A WebDAV Client in Python
 =====================================
 
